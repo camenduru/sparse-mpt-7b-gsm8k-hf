@@ -1,0 +1,3 @@
+git+https://github.com/neuralmagic/deepsparse.git@5d022a74f222d87f13de7fce68bd6bdbf4a14d0e
+transformers
+gradio
