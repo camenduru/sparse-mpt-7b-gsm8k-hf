@@ -110,7 +110,7 @@ with gr.Blocks() as demo:
                 interactive=True,
                 info="Sample from the top_k most likely tokens",
                 )
-           repetition_penalty = gr.Slider(
+            repetition_penalty = gr.Slider(
                 label="Repetition penalty",
                 value=1.2,
                 minimum=1.0,
