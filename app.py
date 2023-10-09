@@ -131,7 +131,7 @@ with gr.Blocks() as demo:
                         repetition_penalty: float,
                 ):
                     generation_config = { "max_new_tokens": max_new_tokens,"temperature": temperature,"top_p": top_p,"top_k": top_k,"repetition_penalty": repetition_penalty,}
-                    inference = pipe(sequences=message, streaming=True, **generation_config
+                    inference = pipe(sequences=message, streaming=True, **generation_config)
                     history[-1][1] += message
                     for token in inference:
                         history[-1][1] += token.generations[0].text
