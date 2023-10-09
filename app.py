@@ -32,6 +32,7 @@ pipe = deepsparse.Pipeline.create(
     prompt_sequence_length=16,
 )
 
+def clear_and_save_textbox(message: str) -> Tuple[str, str]:
     return "", message
 
 
