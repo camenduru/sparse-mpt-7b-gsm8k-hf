@@ -4,7 +4,7 @@ from typing import Tuple, List
 
 deepsparse.cpu.print_hardware_capability()
 
-MODEL_ID = "neuralmagic/mpt-7b-gsm8k-pruned50-quant"
+MODEL_ID = "neuralmagic/mpt-7b-gsm8k-pruned60-quant"
 
 DESCRIPTION = f"""
 # MPT Sparse Finetuned on GSM8k with DeepSparse 
@@ -56,7 +56,7 @@ with gr.Blocks() as demo:
         with gr.Column():
             gr.Markdown(DESCRIPTION)
         with gr.Column():
-            gr.Markdown("""### MPT Sparse Finetuned  Demo""")
+            gr.Markdown("""### MPT GSM Sparse Finetuned Demo""")
             
             with gr.Group():
                 chatbot = gr.Chatbot(label="Chatbot")
