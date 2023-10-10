@@ -11,7 +11,7 @@ DESCRIPTION = f"""
 ![NM Logo](https://files.slack.com/files-pri/T020WGRLR8A-F05TXD28BBK/neuralmagic-logo.png?pub_secret=54e8db19db)
 Model ID: {MODEL_ID}
 
-**🚀 Experience the power of LLM mathematical reasoning** through our MPT sparse finetuned on the [GSM8K dataset](https://huggingface.co/datasets/gsm8k). 
+🚀 **Experience the power of LLM mathematical reasoning** through our MPT sparse finetuned on the [GSM8K dataset](https://huggingface.co/datasets/gsm8k). 
 GSM8K, short for Grade School Math 8K, is a collection of 8.5K high-quality linguistically diverse grade school math word problems, designed to challenge question-answering systems with multi-step reasoning. 
 Observe the model's performance in deciphering complex math questions, such as "Natalia sold clips to 48 of her friends in April, and then she sold half as many clips in May. How many clips did Natalia sell altogether in April and May?" and offering detailed step-by-step solutions.
 ## Accelerated Inferenced on CPUs 
