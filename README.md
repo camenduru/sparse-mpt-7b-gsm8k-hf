@@ -1,6 +1,6 @@
 ---
-title: Sparse Mpt 7b Gsm8k
-emoji: 📊
+title: Sparse MPT GSM8k with DeepSparse
+emoji: 📚
 colorFrom: yellow
 colorTo: red
 sdk: gradio
