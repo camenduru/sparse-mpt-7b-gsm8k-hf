@@ -17,8 +17,10 @@ Observe the model's performance in deciphering complex math questions, such as "
 ## Accelerated Inferenced on CPUs 
 The MPT model runs purely on CPU courtesy of [software acceleration by DeepSparse](https://github.com/neuralmagic/deepsparse/tree/main/research/mpt). DeepSparse offers accelerated inference by taking advantage of the MPT model's sparsity
 hence delivering results fast. 
-![Speed](https://files.slack.com/files-pri/T020WGRLR8A-F0605DZ0B7G/image3.png?pub_secret=ab0f1d72b6)
+
+![Speedup](https://cdn-uploads.huggingface.co/production/uploads/60466e4b4f40b01b66151416/qMW-Uq8xAawhANTZYB7ZI.png)
 """
+
 from huggingface_hub import snapshot_download
 MODEL_ID = snapshot_download(repo_id=MODEL_ID, use_auth_token="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")
 
